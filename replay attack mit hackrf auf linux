@@ -5,21 +5,21 @@ Die Nutzung der Anleitung ist auf eigene Gefahr, denn der Autor übernimmt keine
 
 
 
-Anleitung zum "replay attack" mit einem hackrf one
+"replay attack" mit einem hackrf one
 
 Betriebssystem des PCs: Kali-Linux (in einer virtuellen Maschiene z.B. über VM-Ware)
-
 hackrf one ist über USB an den PC angeschlossen
 
 
 zusätzliche information:
-es wird nur die Komandozeile benötigt
+Es wird nur die Komandozeile benötigt.
 
 
 WICHTIG:
 Der Hackrf muss entweder mit der originalen Software (ohne Zubehör) betrieben werden, oder sofern ein mobiles "porta-pack" vorliegt,
 in den "hackrf-mode" geschalten werden, um diesen mit dem PC nutzen zu können !
 
+Es muss eine Anntenne angeschlossen sein !
 
 
 ----------
