@@ -1,0 +1,85 @@
+Disclaimer:
+Diese Anleitung ist ausschließlich für ethical Hacking und dient zur Prevention, sowie für Aufklärungs- & Bildungszwecke !
+Zudem ist die Anleitung verantwortungsbewusst zu nutzen.
+Die Nutzung der Anleitung ist auf eigene Gefahr, denn der Autor übernimmt keine Garantie für die Richtigkeit der Anleitung und haftet nicht für entstandene Schäden.
+
+
+
+"Replay Attack" über den hackrf mit einem PortaPack
+
+Für diese Anleitung wurde ein PortaPack H1 verwendet.
+verwendete Software: Meyhem v1.7.4
+
+
+WICHTIG:
+Es muss eine Anntenne angeschlossen sein !
+
+
+
+------------------------------------------------------
+Schritt 1 - Freuenz herausfinden
+
+1) Häufig schafft eine Google-Suche bei der ungefähren Suche der Frequenz Abhilfe.
+
+2) Um die genaue Frequenz herauszufinden, kann der "Scanner" verwendet werden.
+	a) Hierbei muss eine Frequenz als Start und eine weitere als End-Frequenz für die Suche unter "SEARCH START" und "SEARCH END" angegeben werden.
+	b) Wenn eine Frequenz gefunden wurde, wird diese gelb angezeigt.
+	c) Die angezeigte Frequenz kann nun notiert werden.
+
+Somit wurde die Frequenz ausfindig gemacht.
+
+------------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------------
+Schritt 2 - Aufnehmen
+
+
+1) Die herausgefundene Frequenz einstellen:
+	a) mit einem Klick auf die Frequenz direkt unter Capture, kann die gewünste Frequenz eingegeben werden.
+	b) Optional kann diese mit "save" auch gespeichert werden.
+
+2) "Rate" beschribt die geschwindigkeit und sichtweite des Wasserfalls.
+   Sollte daher kein markierter Bereich zu erkennen sein, sollte die "Rate" verkleinert werden !
+
+3) Sobald ein Signal auf dem Wasserfall zu sehen ist, kann der Button "Rec" betätigt werden.
+   Um die Aufnahme zu stoppen, muss einfach nur der nun erscheinende "Stop" Button betätigt werden.
+
+4) Nun wurde die Aufnahme lokal gespeichert und kann unter 
+	- "utilities" 
+	- "File manager"
+	- "CAPTURES"
+
+   gefunden werden.
+------------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------------
+Schritt 3 - Wiedergeben
+
+1) Im Menü den Reiter "Replay" öffnen.
+2) Nun kann das "+" Symbol betätigt werden.
+3) Jetzt kann die letzte Datei geöffnet werden.
+4) Nach dem klicken auf "OK", ist die Datei nun ausgewählt.
+5) Optional kann "Loop" ausgewählt werden, um die Datei im loop zu senden.
+6) Beim klicken auf das "Play-Symbol" wird die Datei abgespielt.
+7) Bei erfolgreichem abspielen erscheint der Wasserfall.
+
+------------------------------------------------------
+
+
+Der "Repaly-Attack" wurde erfolgreich ausgeführt.
+
+
+
+hackrf-one: https://greatscottgadgets.com/hackrf/one/
+
+
