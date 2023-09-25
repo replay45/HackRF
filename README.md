@@ -1,2 +1,2 @@
-# hack-rf
-Anleitungen zum Hack-rf
+# HackRF
+Anleitungen zum HackRF one, sowie zum HackRF im PortaPack.
