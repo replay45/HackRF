@@ -5,7 +5,7 @@ Die Nutzung der Anleitung ist auf eigene Gefahr, denn der Autor übernimmt keine
 
 
 
-"Replay Attack" über den hackrf mit einem PortaPack
+"replay attack" über den hackrf mit einem PortaPack
 
 Für diese Anleitung wurde ein PortaPack H1 verwendet.
 verwendete Software: Meyhem v1.7.4
@@ -81,5 +81,3 @@ Der "Repaly-Attack" wurde erfolgreich ausgeführt.
 
 
 hackrf-one: https://greatscottgadgets.com/hackrf/one/
-
-
