@@ -1,13 +1,6 @@
-Disclaimer:
-Diese Anleitung ist ausschließlich für ethical Hacking und dient zur Prevention, sowie für Aufklärungs- & Bildungszwecke !
-Zudem ist die Anleitung verantwortungsbewusst zu nutzen.
-Die Nutzung der Anleitung ist auf eigene Gefahr, denn der Autor übernimmt keine Garantie für die Richtigkeit der Anleitung und haftet nicht für entstandene Schäden.
-
-
-
 "replay attack" mit einem hackrf one
 
-Betriebssystem des PCs: Kali-Linux (in einer virtuellen Maschiene z.B. über VM-Ware)
+Betriebssystem (PC): Kali Linux (in einer virtuellen Maschiene z.B. über VM-Ware)
 hackrf one ist über USB an den PC angeschlossen
 
 
