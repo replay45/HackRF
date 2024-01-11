@@ -1,26 +1,29 @@
 "replay attack" mit einem hackrf one
 
-Betriebssystem (PC): Kali Linux (in einer virtuellen Maschiene z.B. über VM-Ware)
+
+Betriebssystem des PCs: Kali-Linux (in einer virtuellen Maschine z.B. über VM-Ware)
 hackrf one ist über USB an den PC angeschlossen
 
 
-zusätzliche information:
+zusätzliche Information:
 Es wird nur die Komandozeile benötigt.
 
 
 WICHTIG:
 Der Hackrf muss entweder mit der originalen Software (ohne Zubehör) betrieben werden, oder sofern ein mobiles "porta-pack" vorliegt,
-in den "hackrf-mode" geschalten werden, um diesen mit dem PC nutzen zu können !
+in den "hackrf-mode" geschaltet werden, um diesen mit dem PC nutzen zu können !
 
 Es muss eine Anntenne angeschlossen sein !
+
+
 
 
 ----------
 Schritt 1:
 ----------
-Instalation von "gqrx"
+Installation von "gqrx"
 
-BEFEHL: sudo apt install gqrx-sdr
+$ sudo apt install gqrx-sdr
 
 
 ----------
@@ -28,7 +31,7 @@ Schritt 2: (optional)
 ----------
 Um Informationen über den angeschlossenen hackrf zu erhalten, den Befehl ausführen.
 
-BEFEHL: hackrf_info
+$ hackrf_info
 
 
 ----------
@@ -36,7 +39,7 @@ Schritt 3:
 ----------
 Aufzeichnen der angegebenen Frequenz, um diese zu einem späteren Zeitpunkt über den hackrf zu senden.
 
-BEFEHL: hackrf_transfer -r hier-der-dateiname.raw -f 433900000 -l 20 -g 20
+$ hackrf_transfer -r hier-der-dateiname.raw -f 433900000 -l 20 -g 20
 
 
 a) .raw ist das Dateiformat der Aufnahme
@@ -49,7 +52,7 @@ Schritt 4:
 ----------
 Die Aufzeichnung der angegebenen Frequenz wird über diesen Befehl gesendet, um die "Attacke" auszuführen:
 
-BEFEHL: hackrf_transfer -t hier-der-dateiname.raw -f 433900000 -x 40
+$ hackrf_transfer -t hier-der-dateiname.raw -f 433900000 -x 40
 
 
 a) .raw ist das Dateiformat der Aufnahme
@@ -59,7 +62,17 @@ d) der Parameter "-x" gibt die Werte der Signalverstärkung an
 
 
 
+
+
+
 Nun wurde die aufgenommene Frequenz gesendet und der "replay-attack" ist ausgeführt !
 
 
+
+---------------------------------
+
 hackrf-one: https://greatscottgadgets.com/hackrf/one/
+
+---------------------------------
+
+Diese Anleitung wurde am 10.8.2023 verfasst.
