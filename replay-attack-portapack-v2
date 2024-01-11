@@ -1,5 +1,6 @@
 "replay attack" über den hackrf mit einem PortaPack
 
+
 Für diese Anleitung wurde ein PortaPack H1 verwendet.
 verwendete Software: Meyhem v1.7.4
 
@@ -15,7 +16,7 @@ Schritt 1 - Freuenz herausfinden
 1) Häufig schafft eine Google-Suche bei der ungefähren Suche der Frequenz Abhilfe.
 
 2) Um die genaue Frequenz herauszufinden, kann der "Scanner" verwendet werden.
-	a) Hierbei muss eine Frequenz als Start und eine weitere als End-Frequenz für die Suche unter "SEARCH START" und "SEARCH END" angegeben werden.
+	a) Hierbei muss eine Frequenz als Start- und eine weitere als End-Frequenz für die Suche unter "SEARCH START" und "SEARCH END" angegeben werden.
 	b) Wenn eine Frequenz gefunden wurde, wird diese gelb angezeigt.
 	c) Die angezeigte Frequenz kann nun notiert werden.
 
@@ -33,10 +34,10 @@ Schritt 2 - Aufnehmen
 
 
 1) Die herausgefundene Frequenz einstellen:
-	a) mit einem Klick auf die Frequenz direkt unter Capture, kann die gewünste Frequenz eingegeben werden.
+	a) mit einem Klick auf die Frequenz direkt unter Capture, kann die gewünschte Frequenz eingegeben werden.
 	b) Optional kann diese mit "save" auch gespeichert werden.
 
-2) "Rate" beschribt die geschwindigkeit und sichtweite des Wasserfalls.
+2) "Rate" beschreibt die Geschwindigkeit und Sichtweite des Wasserfalls.
    Sollte daher kein markierter Bereich zu erkennen sein, sollte die "Rate" verkleinert werden !
 
 3) Sobald ein Signal auf dem Wasserfall zu sehen ist, kann der Button "Rec" betätigt werden.
@@ -64,13 +65,20 @@ Schritt 3 - Wiedergeben
 4) Nach dem klicken auf "OK", ist die Datei nun ausgewählt.
 5) Optional kann "Loop" ausgewählt werden, um die Datei im loop zu senden.
 6) Beim klicken auf das "Play-Symbol" wird die Datei abgespielt.
-7) Bei erfolgreichem abspielen erscheint der Wasserfall.
+7) Bei erfolgreichem abspielen, erscheint der Wasserfall.
 
 ------------------------------------------------------
+
 
 
 Der "Repaly-Attack" wurde erfolgreich ausgeführt.
 
 
-
 hackrf-one: https://greatscottgadgets.com/hackrf/one/
+
+
+Diese Anleitung wurde am 13.8.2023 verfasst.
+
+
+
+
