@@ -51,7 +51,7 @@ $ hackrf_info
 -------------------------------------------------------------------------------------------------------------------------------------
 
 
-3. Aufzeichnen der angegebenen Frequenz, um diese zu einem späteren Zeitpunkt über den hackrf zu senden:
+3. Aufzeichnen der angegebenen Frequenz, um diese zu einem späteren Zeitpunkt über den HackRF zu senden:
 
 ```
 $ hackrf_transfer -r hier-der-dateiname.raw -f 433900000 -l 20 -g 20
